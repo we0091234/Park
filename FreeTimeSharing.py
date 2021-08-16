@@ -159,6 +159,7 @@ if __name__ == "__main__":
             for busyTime in busyArray:
                 if busyTime in freeArray:
                     print("{} 时段{} is busy,{} is free distance is {}".format(myParkId,busyTime,key,floatDis))
+                    print("{} 时段{} is busy,{} is free distance is {}".format(myParkId,busyTime,key,floatDis))
     # parkCsvPath = r"I:\MachineLearning\Park\HKPark_0526\data\test_0528\2_new"
     # testPath = r"I:\MachineLearning\Park\HKPark_0526\data\test_0528\test"
     # saveModelPath=r"I:/MachineLearning/Park/HKPark_0526/data/test_0528/test/saveMocel"
